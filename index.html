@@ -7,24 +7,28 @@
     <title>Calculadora simples</title>
 </head>
 <body>
+    <main>
     <h1>Calculadora simples!</h1>
 
     <div>
         <label >Digite um número!</label>
-        <input type="text" data-n1>
+        <input type="number" data-n1>
 
         <label >Digite outro número!</label>
-        <input type="text" data-n2>
-        <p data-resultado>Seu resultado é: <span> </span> </p>
+        <input type="number" data-n2>
+        <h2>Seu resultado é: <span data-resultado></span> </h2>
     </div>
     <div>
-        <button onclick="somar()">Somar</button>
+        <button onclick="somar()"> Somar </button>
         <button onclick="subtrair()">Subtrair</button>
         <button onclick="multiplicar()">Multiplicar</button>
         <button onclick="dividir()">Dividir</button>
         <button onclick="limpar()">Limpar</button>
     </div>
+    </main>
+    <script src="main.js">
+        
 
-    <script src="main.js"></script>
+    </script>
 </body>
 </html>
