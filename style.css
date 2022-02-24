@@ -1,0 +1,42 @@
+body{
+    font-family: 'Noto Serif Display', serif;
+
+    font-family: 'Rubik', sans-serif;
+    background: linear-gradient(grey, black);
+}
+main{
+    text-align: center;
+    padding: 210px;
+}
+button{
+    border-radius: 5px;
+    box-shadow: 15cm;
+    background: black;
+    color: rgb(199, 199, 199);
+    margin: 50px;
+    font-size: 20px;
+    cursor:pointer;
+    
+}
+.titulo{
+    font-size: 25px;
+}
+input{
+    border-radius: 20px;
+    box-shadow: 20px;
+}
+h2{
+    text-align: left;
+    margin-top: 30px;
+}
+label{
+    font-size: 20px;
+}
+.botao:hover{
+    background: rgb(82, 80, 80);
+    transform: scale(1.2);
+   
+}
+.botao:click{
+
+}

@@ -4,28 +4,39 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif+Display:wght@100&family=Rubik:wght@300&display=swap" rel="stylesheet"> 
+    
     <title>Calculadora simples</title>
 </head>
 <body>
-    <main>
-    <h1>Calculadora simples!</h1>
+    <main class="principal">
+    <h1 class = "titulo">Calculadora simples!</h1>
 
     <div>
-        <label >Digite um número!</label>
+        <label >Digite um número:</label>
         <input type="number" data-n1>
 
-        <label >Digite outro número!</label>
+        <label >Digite outro número:</label>
         <input type="number" data-n2>
         <h2>Seu resultado é: <span data-resultado></span> </h2>
     </div>
     <div>
-        <button onclick="somar()"> Somar </button>
-        <button onclick="subtrair()">Subtrair</button>
-        <button onclick="multiplicar()">Multiplicar</button>
-        <button onclick="dividir()">Dividir</button>
-        <button onclick="limpar()">Limpar</button>
+        <button class="botao" onclick="somar()"> Somar </button>
+        <button class="botao" onclick="subtrair()">Subtrair</button>
+        <button class="botao" onclick="multiplicar()">Multiplicar</button>
+        <button class="botao" onclick="dividir()">Dividir</button>
+        <button class="botao" onclick="limpar()">Limpar</button>
     </div>
     </main>
+    <footer>
+        Copyright
+    </footer>
     <script src="main.js">
         
 
